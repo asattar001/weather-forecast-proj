@@ -1,3 +1,15 @@
+body{
+    background-color: #1f1f1f;
+}
+
+.shadows{
+    box-shadow: 1px 0px 20px 1px black
+}
+
+img {
+    height: 60px;
+}
+
 .table-dark {
     --bs-table-color: #fff;
     --bs-table-bg: #1f1f1f;
@@ -6,7 +18,7 @@
     --bs-table-striped-color: #fff;
     --bs-table-active-bg: #373b3e;
     --bs-table-active-color: #fff;
-    --bs-table-hover-bg: #323539;
+    --bs-table-hover-bg: #252b32;
     --bs-table-hover-color: #fff;
     color: var(--bs-table-color);
     border-color: var(--bs-table-border-color);

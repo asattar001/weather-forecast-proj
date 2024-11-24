@@ -12,20 +12,22 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Weather App</title>
   </head>
-  <body style="background-color:  #1f1f1f;">
+  <body>
     <main class="container">
-      <h3 class="mb-4 text-white">Weather Forecast</h3>
-      <div >
-        <label class="text-white mb-3" for="citySelect">Select City:</label>
-        <select class="form-select" name="" id="citySelect" style="width: 15rem;">
-          <option value="">Choose...</option>
-        </select>
-      </div>
-      <div class="my-4" id="table" style="display: none; box-shadow: 1px 0px 20px 1px black;">
-        <div class="mb-3">
-          <h3 class= "text-white p-3" id="cityName">New York</h3>
+      <h2 class="my-4 text-white">Weather Forecast</h2>
+      <div>
+        <div class="p-4 rounded-4 shadows" style="width: max-content;">
+          <label class="text-white mb-3" for="citySelect">Select City:</label>
+          <select class="form-select mb-2" name="" id="citySelect" style="width: 15rem">
+            <option value="">Choose...</option>
+          </select>
         </div>
-        
+      </div>
+      <div class="my-4 rounded-4 shadows" id="table" style="display: none;">
+        <div class="">
+          <h3 class="text-white p-4" id="cityName">New York</h3>
+        </div>
+
         <table class="table table-striped table-hover align-middle table-dark">
           <thead>
             <tr>
@@ -39,7 +41,7 @@
           </thead>
           <tbody>
             <tr id="row">
-              <td class="p-2" id="icon"><img class="rounded-circle" src="" alt="icon" style="height: 60px" /></td>
+              <td class="p-2" id="icon"><img class="rounded-circle" src="" alt="icon"/></td>
               <td class="info" id="name"></td>
               <td class="info" id="temperature"></td>
               <td class="info" id="windSpeed"></td>
